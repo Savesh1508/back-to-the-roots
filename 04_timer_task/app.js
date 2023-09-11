@@ -4,7 +4,6 @@ const fullBtn = document.getElementById('full');
 const dateBtn = document.getElementById('date');
 const timeBtn = document.getElementById('time');
 
-// ЗАМЫКАНИЕ!
 function bindMode(name) {
   return function() {
     mode = name
